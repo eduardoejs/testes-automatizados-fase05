@@ -1,0 +1,6 @@
+bin/
+vendor/
+.idea/
+composer.lock
+composer.phar
+selenium-server-standalone-2.44.0.jar

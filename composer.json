@@ -1,0 +1,22 @@
+{
+    "name" : "Fase 05 - Módulo Testes Automatizados",
+    "authors" : [
+        {
+            "name" : "Eduardo Silva",
+            "email" : "eduardo.ejs@hotmail.com"
+        }
+    ],
+    "mininum-stability" : "dev",
+    "config":{
+        "bin-dir": "bin/"
+    },
+    "require":{
+        "phpunit/phpunit": "4.2.6",
+        "phpunit/phpunit-selenium": ">=1.2"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "EJS\\" : "src/"
+        }
+    }
+}
